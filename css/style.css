@@ -1,0 +1,195 @@
+@font-face {
+  font-family: Xiomara;
+  src: url(../fonts/xiomara.ttf);
+}
+@font-face {
+  font-family: CochinArchaic;
+  src: url(../fonts/CochinArchaic.ttf);
+}
+@font-face {
+  font-family: WindiRain;
+  src: url(../fonts/WindiRain.otf);
+}
+@font-face {
+  font-family: AzerothCyrillic;
+  src: url(../fonts/AzerothCyrillic.ttf);
+}
+@font-face {
+  font-family: GoodVibes;
+  src: url(../../MyFonts/GoodVibes.ttf);
+}
+@font-face {
+  font-family: Katherine;
+  src: url(../../MyFonts/Katherine.ttf);
+}
+@font-face {
+  font-family: Majestic;
+  src: url(../../MyFonts/Majestic.ttf);
+}
+@font-face {
+  font-family: MonAmour;
+  src: url(../../MyFonts/MonAmour.ttf);
+}
+@font-face {
+  font-family: RupsterScript;
+  src: url(../../MyFonts/RupsterScript.ttf);
+}
+@font-face {
+  font-family: SlapakScript;
+  src: url(../../MyFonts/SlapakScript.otf);
+}
+h1 {
+  font-family: WindiRain;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.header-block {
+  min-height: 100vh;
+  background: url("../images/background.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+}
+.header-block .container .row {
+  margin-top: 7%;
+}
+.header-block .container .row .schedule {
+  width: 500px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 5px #000;
+  border-radius: 50%;
+  padding: 0;
+  font-family: serif;
+}
+.header-block .container .row .schedule img {
+  width: 80%;
+  margin-top: 15%;
+  -webkit-filter: contrast(200%);
+  -o-filter: contrast(200%);
+  -fox-filter: contrast(200%);
+  filter: contrast(200%);
+}
+.header-block .container .row .schedule hr {
+  width: 90%;
+  border: none;
+  height: 2px;
+  background-color: #a09545;
+}
+.header-block .container .row .schedule .date {
+  line-height: 70%;
+  font-size: 90px;
+  font-family: CochinArchaic;
+  /*color: #a09545;*/
+  color: #fff;
+  text-shadow: 2px 0px 6px black;
+}
+.header-block .container .row .schedule .btn {
+  background-color: #7BBCA6;
+  box-shadow: 0px 0px 4px black;
+  -webkit-transition: 0.5s;
+  border: none;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: bold;
+  width: 40%;
+  margin-top: 7%;
+  padding: 10px 0px;
+}
+.header-block .container .row .schedule .btn:hover {
+  box-shadow: 0px 0px 8px black;
+}
+.header-block .container .arrow {
+  -webkit-transition: 0.5s;
+  box-shadow: 0px 0px 5px #000;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 4%;
+  bottom: 10%;
+}
+.header-block .container .arrow:hover {
+  background: rgba(48, 74, 65, 0.9);
+}
+.header-block .container .arrow a .fa {
+  color: #fff;
+  font-size: 50px;
+  padding: 10%;
+}
+.container-fluide {
+  background: url('../images/greyfloral.png');
+}
+.container-fluide .container iframe {
+  margin-top: 50px;
+  margin-left: 40%;
+  width: 48.4%;
+  margin: auto;
+  box-shadow: 0px 0px 10px #000;
+}
+.container-fluide .container iframe #document .ytp-chrome-top-buttons {
+  display: none;
+}
+.container-fluide .events {
+  padding-top: 50px;
+}
+.container-fluide .events .row {
+  margin-bottom: 50px;
+}
+.container-fluide .events .row .btn-danger {
+  background: none;
+  border: 1px solid #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.container-fluide .events .row .btn-danger:focus {
+  outline: none;
+}
+.container-fluide .events .row .description {
+  padding-bottom: 40px;
+}
+.container-fluide .events .row .right {
+  float: right;
+}
+.container-fluide .events .row .left {
+  float: left;
+}
+.container-fluide .events .row .fa {
+  margin-left: 10px;
+  font-size: 16px;
+}
+.container-fluide .events .row img {
+  box-shadow: 0px 0px 15px #000;
+}
+/*--------Новый код--------*/
+@media screen and (max-width: 768px) {
+  .header-block .container .row .schedule {
+    width: 300px;
+    height: 300px;
+  }
+  .header-block .container .row .schedule .date {
+    font-size: 50px;
+  }
+  .header-block .container .row .schedule .btn {
+    font-size: 15px;
+  }
+  .header-block .container .arrow {
+    -webkit-transition: 0.5s;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+  }
+  .container-fluide .container iframe {
+    width: 90%;
+    height: 210px;
+  }
+}
